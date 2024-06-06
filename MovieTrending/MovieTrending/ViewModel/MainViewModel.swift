@@ -55,6 +55,14 @@ class MainViewModel {
         return movie.title ?? movie.name ?? ""
     }
     
+    func retrieveMovie(with id: Int) -> Movie? {
+        guard let movie = dataSource?.results.first(where: { $0.id == id }) else {
+            return nil
+        }
+        
+        return movie
+    }
+    
 }
 // https://api.themoviedb.org/3/trending/all/day?api_key=4dcc0cb5bbad7fb3209bd65aca372efe
     
