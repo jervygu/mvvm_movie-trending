@@ -20,6 +20,7 @@
 		07924D282C11516E00EEE6CC /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07924D272C11516E00EEE6CC /* NetworkConstant.swift */; };
 		07924D2A2C11548D00EEE6CC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07924D292C11548D00EEE6CC /* APICaller.swift */; };
 		07924D2C2C1154CA00EEE6CC /* TrendingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07924D2B2C1154CA00EEE6CC /* TrendingMoviesModel.swift */; };
+		07924D2E2C115C7600EEE6CC /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07924D2D2C115C7600EEE6CC /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		07924D272C11516E00EEE6CC /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		07924D292C11548D00EEE6CC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		07924D2B2C1154CA00EEE6CC /* TrendingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesModel.swift; sourceTree = "<group>"; };
+		07924D2D2C115C7600EEE6CC /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		07924D1E2C1144C400EEE6CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				07924D2D2C115C7600EEE6CC /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07924D2E2C115C7600EEE6CC /* Observable.swift in Sources */,
 				07924D2C2C1154CA00EEE6CC /* TrendingMoviesModel.swift in Sources */,
 				07924CE62C113EE900EEE6CC /* AppDelegate.swift in Sources */,
 				07924D2A2C11548D00EEE6CC /* APICaller.swift in Sources */,
